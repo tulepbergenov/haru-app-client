@@ -1,5 +1,5 @@
-import { createApp } from 'vue'
-import './style.css'
-import App from './App.vue'
+import { createApp } from "vue";
+import VApp from "./VApp.vue";
+import "bootstrap/dist/css/bootstrap.min.css";
 
-createApp(App).mount('#app')
+createApp(VApp).mount("#app");
