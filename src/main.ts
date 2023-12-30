@@ -1,5 +1,6 @@
+import "bootstrap/dist/css/bootstrap.min.css";
 import { createApp } from "vue";
 import VApp from "./VApp.vue";
-import "bootstrap/dist/css/bootstrap.min.css";
+import { router } from "./router";
 
-createApp(VApp).mount("#app");
+createApp(VApp).use(router).mount("#app");
