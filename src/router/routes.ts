@@ -14,6 +14,9 @@ export const routes = [
     name: "addTodo",
     path: "/add-todo",
     component: VAddTodoViewVue,
+    meta: {
+      title: "Add Todo",
+    },
   },
   {
     name: "todo.id",
@@ -24,6 +27,9 @@ export const routes = [
     name: "notFound",
     path: "/:notFound",
     component: VNotFoundViewVue,
+    meta: {
+      title: "Not Found",
+    },
   },
 ] as const satisfies readonly AppRouteRecord[];
 
